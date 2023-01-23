@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&display=swap');
+body{
+    background-color: black;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    background-image: url("../assets/image/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 90px;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.logo:hover{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+  contrast(87%);
+}
+.header-lists{
+    display: flex;
+    list-style: none;
+}
+.header-list{
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.header-list:hover{
+    color: #bdae82;
+    transition-duration: 0.5s;
+}
+.header-list-en{
+    color: #bdae82;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+.header-list-en:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #bdae82;
+}
+.section__alexa-rise{
+    background-position: 0px -40px;
+    font-family: 'Inter', sans-serif;
+    height: 820px;
+}
+.logo__alexa-rise{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(../assets/image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.alexa-rise-wrapper{
+    height: 330px;
+    margin-left: 6%;
+    margin-right: 56%;
+    
+}
+.section__alexa-rise__title{
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 60px;
+    padding-top: 250px;
+    color: white;
+    text-align: left;
+}
+.section__alexa-rise__text{
+    font-size: 20px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    line-height: 40px;
+}
+.section__alexa-rise__button{
+    width: 220px;
+    height: 55px;
+    border: none;
+    background-color: #bdae82;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.button__alexa-rise{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+.button__alexa-rise:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+.section-skills__title{
+    margin-top: 50px;
+}
+.section-skills__teams{
+    display: flex;
+}
+.section-skills__team{
+    text-align: center;
+    width: 360px;
+    height: 240px;
+    padding: 40px;
+}
+.section-skills__title{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+.section-skills__text{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+.Portfolio-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 50px;
+}
+.wrapper-button{
+    width: 220px;
+    height: 55px;
+    background-color: black;
+    color: #bdae82;
+    border: 2px solid #bdae82;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+}
+.wrapper-button:hover{
+    color: white;
+}
+.wrapper-button__Autumn{
+    width: 220px;
+    height: 55px;
+    background-color: #bdae82;
+    color: black;
+    border: 2px solid #bdae82;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+}
+.Portfolio-image{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.section-video{
+    background-image: url(../assets/image/video-player.jpg);
+    width: 1400px;
+    height: 731px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen{ 
+    .section-video{
+        max-width: 1200px;
+        padding-right: 5px;
+    }
+}
+.video-button{
+    width: 130px;
+    height: 130px;
+}
+.price__title{
+    color: white;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 43px;
+}
+.section__price{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.section__price-div{
+    border: 3px solid #bdae82;
+    width: 450px;
+    height: 505px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.price-text__money{
+    color: #bdae82;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0px;
+    margin-bottom: 5px;
+}
+.price__text-div{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Inter' sans-serif;
+    padding-top: 15px;
+}
+.price__text{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: 'Inter' sans-serif;
+}
+.price__button{
+    height: 55px;
+    width: 220px;
+    background-color: #bdae82;
+    color: #000000;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 43px;
+
+}
+.price__button:hover{
+    color: white;
+}
+.section-contact{
+    max-width: 1440px;
+    margin: 0 auto ;
+    height: 700px;
+}
+.contact{
+    display: flex;
+    justify-content: flex-end;
+}
+.contacts-container{
+    display: flex;
+    flex-direction: column;
+    height: 445px;
+    width: 450px;
+}
+.contact-section{
+    padding: 87px;
+}
+.section-contact__tittle{
+    font-size: 40px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: bold;
+    color: #bdae82;
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+.section-contact__input{
+    height: 50px;
+    width: 450px;
+    border: 2px solid #bdae82;
+    background-color: black;
+    margin-bottom: 20px;
+    text-indent: 20px;
+    margin-right: 20px;
+    color: #bdae82;
+    font-family: 'Inter' sans-serif;
+    font-size: 20px;
+}
+.section-contact__input::placeholder {
+    color: #bdae82;
+    font-family: 'Inter';
+    text-indent: 20px;
+    font-size: 20px;
+}
+.section-contact__input-text{
+    height: 100px;
+    width: 450px;
+    border: 2px solid #bdae82;
+    background-color: black;
+    margin-bottom: 30px;
+    text-indent: 20px;
+    color: #bdae82;
+    font-family: 'Inter' sans-serif;
+    font-size: 20px;
+    text-align: top;
+}
+.section-contact__input-text::placeholder {
+    color: #bdae82;
+    text-indent: 20px ;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+.background-contact{
+    background-image:url("../assets/image/contacts.jpg") ;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1440px;   
+    margin: 0 auto ;
+    padding: 0 20px;
+}
+@media screen {
+    .background-contact{
+        max-width: 1200px;
+    }
+}
+.button__send-message{
+    height: 55px;
+    width: 220px;
+    background-color: #bdae82;
+    color: black;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 43px;
+}
+.button__send-message:hover{
+    color: white;
+}
+footer{
+    height: 150px;
+}
+.footer_text{
+    color: white;
+    font-family: 'Inter';
+    padding-right: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.footer-data{
+    display: flex;
+    width: 182px;
+    height: 50px;
+    align-items: center;
+}
+.footer__image{
+    height: 32px;
+    width: 32px;
+    padding-left: 20px;
+}
+.social-list{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top:50px;
+    padding-bottom:50px;
+    align-items: center;
+}
